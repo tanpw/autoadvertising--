@@ -1,0 +1,17 @@
+AutoAdSystem/
+├── main.py # 主程序文件
+├── requirements.txt # 依赖包列表
+├── setup.py # 安装配置文件
+├── build.bat # Windows打包脚本
+├── README.md # 使用说明文档
+├── LICENSE # 许可证文件
+├── icon.ico # 应用程序图标
+├── config/
+│ └── settings.json # 配置文件
+├── data/
+│ ├── ads.db # 数据库文件(自动生成)
+│ └── ad_cache.json # 缓存文件(自动生成)
+├── logs/
+│ └── app.log # 日志文件(自动生成)
+└── dist/ # 打包后的可执行文件目录
+    └── AutoAdSystem.exe # 主程序
